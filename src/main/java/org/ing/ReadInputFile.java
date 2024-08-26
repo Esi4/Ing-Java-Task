@@ -41,9 +41,4 @@ public class ReadInputFile {
             throw new RuntimeException(e);
         }
     }
-
-
-    public void main() {}
-
-
 }
