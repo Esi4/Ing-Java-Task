@@ -4,14 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e537b44c-405d-4822-b862-41885c994734" name="Changes" comment="test">
+    <list default="true" id="e537b44c-405d-4822-b862-41885c994734" name="Changes" comment="start">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ReadInputFileTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ing/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/ing/ReadInputFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ing/ReadInputFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -23,6 +32,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Esi4"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Esi4/Ing-Java-Task",
+    "accountId": "e330e00d-4be2-4361-9f67-077691d97a75"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/org/ing/Main.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -37,6 +58,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.ReadInputFileTest.executor": "Run",
+    "JUnit.ReadInputFileTest.executor": "Run",
+    "JUnit.ReadInputFileTest.testIsValidString.executor": "Run",
+    "JUnit.ReadInputFileTest.testIsValidStringLngFile.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -52,6 +78,66 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.ReadInputFileTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ing.Main" />
+      <module name="Ing-java-task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadInputFileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReadInputFileTest" />
+      <module name="Ing-java-task" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadInputFileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ing-java-task" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ReadInputFileTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadInputFileTest.testIsValidString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ing-java-task" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ReadInputFileTest" />
+      <option name="METHOD_NAME" value="testIsValidString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadInputFileTest.testIsValidStringLngFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ing-java-task" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ReadInputFileTest" />
+      <option name="METHOD_NAME" value="testIsValidStringLngFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ReadInputFileTest" />
+        <item itemvalue="JUnit.ReadInputFileTest.testIsValidStringLngFile" />
+        <item itemvalue="JUnit.ReadInputFileTest.testIsValidString" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ReadInputFileTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -70,7 +156,7 @@
       <updated>1724670771349</updated>
       <workItem from="1724670772489" duration="5302000" />
       <workItem from="1724689018790" duration="740000" />
-      <workItem from="1724690127689" duration="954000" />
+      <workItem from="1724690127689" duration="8367000" />
     </task>
     <task id="LOCAL-00001" summary="add ReadInputFile class">
       <option name="closed" value="true" />
@@ -88,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724689708257</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="start">
+      <option name="closed" value="true" />
+      <created>1724691987316</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724691987316</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +191,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add ReadInputFile class" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="start" />
+    <option name="LAST_COMMIT_MESSAGE" value="start" />
   </component>
 </project>
