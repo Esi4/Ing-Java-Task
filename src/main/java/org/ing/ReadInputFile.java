@@ -1,17 +1,12 @@
 package org.ing;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
+import java.io.*;
 import java.nio.Buffer;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
+import java.util.regex.Pattern;
 
 public class ReadInputFile {
     private String pathToFile;
-    private HashMap<String, int[]> hashMap = new HashMap<>();
     private File file;
 
     public ReadInputFile(String pathToFile) {
@@ -29,16 +24,24 @@ public class ReadInputFile {
         return file.exists() && file.isFile() && file.canRead();
     }
 
-    private void readFile() {
-        ArrayList<int[]> arr = new ArrayList<>();
-        BufferedReader bf;
+    private String[][] readFile() throws IOException {
+        ArrayList<String[]> arrayList = new ArrayList<>();
 
-        try {
-            bf = new BufferedReader(new FileReader(pathToFile));
-            //TODO()
-
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
+        try (BufferedReader br = new BufferedReader(new FileReader(pathToFile))) {
+            String line;
+            while ((line = br.readLine()) != null) {
+                if(isValidString(line)) {
+                    String[] str = line.trim().split(";");
+                    arrayList.add(str);
+                }
+            }
         }
+
+        return arrayList.toArray(new String[arrayList.size()][]);
+    }
+
+    public boolean isValidString(String str) {
+        String pattern = "^\"(\\d*)\"(;\"(\\d*)\")+$";
+        return Pattern.matches(pattern, str);
     }
 }
