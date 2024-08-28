@@ -15,6 +15,7 @@ public class ProcessesLines {
 
     public ProcessesLines(ReadInputFile readInputFile) {
         this.readInputFile = readInputFile;
+        processes();
     }
 
     public void processes() {
@@ -32,6 +33,7 @@ public class ProcessesLines {
                 if(indexLines.contains(j)) continue;
 
                 if(equalsLines(processesLines.get(i), processesLines.get(j))) {
+                    System.out.println("Check-Check!");
                     group.add(processesLines.get(j));
                     indexLines.add(j);
                 }
@@ -42,8 +44,10 @@ public class ProcessesLines {
     }
 
     private boolean equalsLines(String[] lineOne, String[] lineTwo) {
-        for (int i = 0; i < lineOne.length; i++) {
-            if(lineOne[i].equals(lineTwo[i]) && lineOne[i].equals(" ")) {
+        int minSize = Math.min(lineOne.length, lineTwo.length);
+
+        for (int i = 0; i < minSize; i++) {
+            if(lineOne[i].equals(lineTwo[i]) && !lineOne[i].isEmpty()) {
                 return true;
             }
         }
