@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e537b44c-405d-4822-b862-41885c994734" name="Changes" comment="start">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ReadInputFileTest.java" afterDir="false" />
+    <list default="true" id="e537b44c-405d-4822-b862-41885c994734" name="Changes" comment="add read line from file">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ing/WriteInOutputFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/ing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ing/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ing/ProcessesLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ing/ProcessesLines.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/ing/ReadInputFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ing/ReadInputFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,18 +35,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Esi4"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Esi4&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Esi4/Ing-Java-Task",
-    "accountId": "e330e00d-4be2-4361-9f67-077691d97a75"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Esi4/Ing-Java-Task&quot;,
+    &quot;accountId&quot;: &quot;e330e00d-4be2-4361-9f67-077691d97a75&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/org/ing/Main.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -56,29 +59,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.ReadInputFileTest.executor": "Run",
-    "JUnit.ReadInputFileTest.executor": "Run",
-    "JUnit.ReadInputFileTest.testIsValidString.executor": "Run",
-    "JUnit.ReadInputFileTest.testIsValidStringLngFile.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/kot8565/Desktop/Idea Projects/Ing-java-task",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReadInputFileTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReadInputFileTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReadInputFileTest.testIsValidString.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReadInputFileTest.testIsValidStringLngFile.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kot8565/Desktop/Idea Projects/Ing-java-task&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.ReadInputFileTest">
+}</component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.ing.Main" />
       <module name="Ing-java-task" />
@@ -130,10 +133,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ReadInputFileTest" />
         <item itemvalue="JUnit.ReadInputFileTest.testIsValidStringLngFile" />
         <item itemvalue="JUnit.ReadInputFileTest.testIsValidString" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ReadInputFileTest" />
       </list>
     </recent_temporary>
@@ -156,7 +159,8 @@
       <updated>1724670771349</updated>
       <workItem from="1724670772489" duration="5302000" />
       <workItem from="1724689018790" duration="740000" />
-      <workItem from="1724690127689" duration="8367000" />
+      <workItem from="1724690127689" duration="8471000" />
+      <workItem from="1724863422387" duration="4709000" />
     </task>
     <task id="LOCAL-00001" summary="add ReadInputFile class">
       <option name="closed" value="true" />
@@ -182,7 +186,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724691987316</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add test for valid String">
+      <option name="closed" value="true" />
+      <created>1724699675489</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724699675489</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add read line from file">
+      <option name="closed" value="true" />
+      <created>1724699689086</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724699689086</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +212,8 @@
     <MESSAGE value="add ReadInputFile class" />
     <MESSAGE value="test" />
     <MESSAGE value="start" />
-    <option name="LAST_COMMIT_MESSAGE" value="start" />
+    <MESSAGE value="add test for valid String" />
+    <MESSAGE value="add read line from file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add read line from file" />
   </component>
 </project>
