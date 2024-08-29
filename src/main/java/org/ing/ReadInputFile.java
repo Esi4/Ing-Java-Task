@@ -7,11 +7,10 @@ import java.util.*;
 import java.util.regex.Pattern;
 
 public class ReadInputFile {
-    private String pathToFile;
-    private File file;
+    private final String pathToFile;
 
     @Getter
-    private List<String[]> processesLines = new ArrayList<>();
+    private List<String[]> readLines = new ArrayList<>();
 
     public ReadInputFile(String pathToFile) {
         if(!isValidFilePath(pathToFile)) {throw new IllegalArgumentException();}
@@ -29,7 +28,7 @@ public class ReadInputFile {
             return false;
         }
 
-        file = new File(filePath);
+        File file = new File(filePath);
         return file.exists() && file.isFile() && file.canRead();
     }
 
@@ -40,7 +39,7 @@ public class ReadInputFile {
             while ((line = br.readLine()) != null) {
                 if(isValidString(line)) {
                     String[] str = line.trim().split(";");
-                    processesLines.add(str);
+                    readLines.add(str);
                 }
             }
         }
