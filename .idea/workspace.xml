@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e537b44c-405d-4822-b862-41885c994734" name="Changes" comment="add read line from file">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/expected_result" afterDir="false" />
+    <list default="true" id="e537b44c-405d-4822-b862-41885c994734" name="Changes" comment="optzn BSF algthm">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ing/GroupProcessorTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ing/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/ing/ProcessesLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ing/ProcessesLines.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/output" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/output" afterDir="false" />
     </list>
@@ -59,28 +59,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ReadInputFileTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ReadInputFileTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ReadInputFileTest.testIsValidString.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ReadInputFileTest.testIsValidStringLngFile.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kot8565/Desktop/Idea Projects/Ing-java-task&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Debug",
+    "Application.ReadInputFileTest.executor": "Run",
+    "JUnit.ReadInputFileTest.executor": "Run",
+    "JUnit.ReadInputFileTest.testIsValidString.executor": "Run",
+    "JUnit.ReadInputFileTest.testIsValidStringLngFile.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/kot8565/Desktop/Idea Projects/Ing-java-task",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.ing.Main" />
@@ -159,7 +159,7 @@
       <workItem from="1724670772489" duration="5302000" />
       <workItem from="1724689018790" duration="740000" />
       <workItem from="1724690127689" duration="8367000" />
-      <workItem from="1724993688861" duration="1212000" />
+      <workItem from="1724993688861" duration="8499000" />
     </task>
     <task id="LOCAL-00001" summary="add ReadInputFile class">
       <option name="closed" value="true" />
@@ -185,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724691987316</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="optzn BSF algthm">
+      <option name="closed" value="true" />
+      <created>1724996902294</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724996902294</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,17 +203,7 @@
     <MESSAGE value="add ReadInputFile class" />
     <MESSAGE value="test" />
     <MESSAGE value="start" />
-    <option name="LAST_COMMIT_MESSAGE" value="start" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/ing/ProcessesLines.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="optzn BSF algthm" />
+    <option name="LAST_COMMIT_MESSAGE" value="optzn BSF algthm" />
   </component>
 </project>
