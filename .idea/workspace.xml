@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e537b44c-405d-4822-b862-41885c994734" name="Changes" comment="add read line from file">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ing/WriteInOutputFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/expected_result" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/ing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ing/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/ing/ProcessesLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ing/ProcessesLines.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ing/ReadInputFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ing/ReadInputFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/output" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +47,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/org/ing/Main.java" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -61,7 +61,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
     &quot;Application.ReadInputFileTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.ReadInputFileTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.ReadInputFileTest.testIsValidString.executor&quot;: &quot;Run&quot;,
@@ -69,7 +69,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/kot8565/Desktop/Idea Projects/Ing-java-task&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -144,8 +144,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.387" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.387" />
+        <option value="jdk-17.0.9-corretto-17.0.9-4caba194b151-107bc6b7" />
       </set>
     </attachedChunks>
   </component>
@@ -159,8 +158,8 @@
       <updated>1724670771349</updated>
       <workItem from="1724670772489" duration="5302000" />
       <workItem from="1724689018790" duration="740000" />
-      <workItem from="1724690127689" duration="8471000" />
-      <workItem from="1724863422387" duration="4709000" />
+      <workItem from="1724690127689" duration="8367000" />
+      <workItem from="1724993688861" duration="1212000" />
     </task>
     <task id="LOCAL-00001" summary="add ReadInputFile class">
       <option name="closed" value="true" />
@@ -186,23 +185,7 @@
       <option name="project" value="LOCAL" />
       <updated>1724691987316</updated>
     </task>
-    <task id="LOCAL-00004" summary="add test for valid String">
-      <option name="closed" value="true" />
-      <created>1724699675489</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1724699675489</updated>
-    </task>
-    <task id="LOCAL-00005" summary="add read line from file">
-      <option name="closed" value="true" />
-      <created>1724699689086</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1724699689086</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,8 +195,17 @@
     <MESSAGE value="add ReadInputFile class" />
     <MESSAGE value="test" />
     <MESSAGE value="start" />
-    <MESSAGE value="add test for valid String" />
-    <MESSAGE value="add read line from file" />
-    <option name="LAST_COMMIT_MESSAGE" value="add read line from file" />
+    <option name="LAST_COMMIT_MESSAGE" value="start" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/ing/ProcessesLines.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
